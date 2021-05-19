@@ -1,3 +1,4 @@
+import 'package:cuidapet/app/shared/components/facebook_button.dart';
 import 'package:cuidapet/app/shared/theme_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -127,8 +128,8 @@ class _LoginPageState extends ModularState<LoginPage, LoginController> {
                 ],
               ),
             ),
-            Text('Facebook Botton'),
-            TextButton(onPressed: () {}, child: Text('dasd'))
+            FacebookButton(),
+            TextButton(onPressed: () {}, child: Text('Cadastre-se'))
           ],
         ),
       ),
