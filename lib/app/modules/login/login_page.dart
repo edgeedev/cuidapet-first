@@ -1,6 +1,7 @@
 import 'package:cuidapet/app/shared/components/facebook_button.dart';
 import 'package:cuidapet/app/shared/theme_utils.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'login_controller.dart';
@@ -81,7 +82,9 @@ class _LoginPageState extends ModularState<LoginPage, LoginController> {
               height: 60,
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  FacebookLogin().logIn(['public_profile', 'email']);
+                },
                 style: ElevatedButton.styleFrom(
                   primary: ThemeUtils.primaryColor,
                   shape: new RoundedRectangleBorder(
