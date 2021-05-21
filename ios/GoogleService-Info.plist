@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>100990201407-eqscsam2c4fs9mmloavub59qu8aefic8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.100990201407-eqscsam2c4fs9mmloavub59qu8aefic8</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>100990201407-m5g9s9k2badp5arp05aoujs60a452tqr.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAfaoYPrU72Zn7NOfZBxdjok3PQinPHHJM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>100990201407</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.eduardosantos.cuidapet</string>
+	<key>PROJECT_ID</key>
+	<string>cuidapet-first</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cuidapet-first.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:100990201407:ios:60480bc88e74c87a8b528a</string>
+</dict>
+</plist>
