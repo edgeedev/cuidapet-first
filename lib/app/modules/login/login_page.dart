@@ -23,7 +23,9 @@ class _LoginPageState extends ModularState<LoginPage, LoginController> {
         children: [
           Container(
             width: ScreenUtil.screenWidthDp,
-            height: ScreenUtil.screenHeightDp * .95,
+            height: ScreenUtil.screenHeightDp < 700
+                ? 500
+                : ScreenUtil.screenHeightDp * .95,
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage('lib/assets/images/login_background.png'),
