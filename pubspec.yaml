@@ -39,6 +39,8 @@ dependencies:
   get: ^3.15.0
   mobx: ^1.2.1
   json_annotation: ^3.0.1
+  shared_preferences: ^2.0.6
+  flutter_secure_storage: ^4.2.0
 
 dev_dependencies:
   flutter_test:
